@@ -1,4 +1,4 @@
-# Filter Stability
+
 This repository contains a part of data and codes related to experiments performed on Lorenz-96 chaotic system for dimensions 10 and 40 using EnKF( Ensemble Kalman Filter). The experiments use EnKF to compute the forecast and analysis ensemble. The assimilated experiments data are not uploaded but the codes to recreate the experiments are avaiable. The final results of distance calculation is present. 
 
 ## Filters
