@@ -4,7 +4,7 @@ This repository contains a part of data and codes related to experiments perform
 ## Filters
 Filters are state( and parameter) estimation algorithms which produce conditional estimates and distributions of the state of a dynamical system based on a numerical model and observations from the real system to improve estimates from either of the model estimate and the observations. Two generic filters used in the literature are ensemble kalman filters and particle filters. The former uses unweighted ensemble and approximates the kalman filter update equations and the latter uses weihted particles and sequential sampling of weights.  
 
-## Distance between probability distributions falling over time $ \bigto$ Stability
+## Distance between probability distributions falling over time $ \to$ Stability
 Any generic filter is initialized with an initial distribution for the true state(unknown), which is not known a priori. This leads to the question of how different different initial disttribution may affect the conditional distributions of state from a particular filter over time.     
 
 *Stability* of a filter a measure of how different initial distribution of the filter lead to similar conditional distribution over assimilation time.
